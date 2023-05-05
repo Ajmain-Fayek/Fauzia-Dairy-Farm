@@ -1,41 +1,54 @@
-.title-name {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 0px;
+/* Body starts from here. */
+.background-image {
+    background-image: url(logo-baner.png);
 }
 
-.established {
-    text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2px;
-    margin-bottom: 5px;
-}
-
-.title-bar {
+/* Main starts from here. */
+main {
+    background-color: antiquewhite;
     width: 80%;
-    background-color: rgb(238, 186, 15);
-    padding: 10px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*Header starts from here.*/
 .title-name, .established {
-    width: 80%;
-    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+}
+
+.title-name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+.established {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-style: italic;
 }
 
 .logo {
     display: block;
     margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 0px;
 }
 
-.background-image {
-    background-image: url(logo-baner.png);
-
+/*hr styling starts from here. */
+hr {
+    background-color: brown;
+    height: 1px;
+    border: 1px solid brown;
 }
 
+.hr-1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* */
