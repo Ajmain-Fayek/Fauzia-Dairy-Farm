@@ -7,9 +7,11 @@
 main {
     background-color: antiquewhite;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+    max-width: 600px;
 }
 
 /*Header starts from here.*/
@@ -38,9 +40,6 @@ main {
     padding-bottom: 0px;
 }
 
-header {
-    padding-top: 20px;
-}
 
 /*hr styling starts from here. */
 hr {
@@ -52,6 +51,52 @@ hr {
 .hr-1, .hr-2 {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/* Section-1 styling starts from here. */
+.section-1 h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.section-1 ul {
+    /* width: 80%; */
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /* margin-right: 0px; */
+    margin-left: -20px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.section-1 li {
+    list-style-type: square;
+}
+
+/* section-2 styling starts from here. */
+.section-2 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.type {
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
 }
 
 /*Footer styling starts from here. */
@@ -66,8 +111,8 @@ footer p {
 }
 
 footer {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 a {
