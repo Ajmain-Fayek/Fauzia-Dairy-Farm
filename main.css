@@ -66,13 +66,9 @@ hr {
 
 /* Section-1 styling starts from here. */
 .section-1 ul {
-    /* width: 80%; */
     margin-top: 0px;
     margin-bottom: 5px;
-    /* margin-right: 0px; */
     margin-left: -20px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
 }
 
 .section-1 li {
